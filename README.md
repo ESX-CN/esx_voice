@@ -2,30 +2,30 @@
 FXServer ESX Voice
 
 
-#### Description
-This is a proximity voice controller script. The default control for this is `Left Shift + H` (QWERTY).
+#### 描述
+这是一个近场语音控制脚本。默认快捷键是 `Left Shift + H` (QWERTY).
 
-#### Download
+#### 下载
 
-**1) Using [fvm](https://github.com/qlaffont/fvm-installer)**
+**1) 使用 [fvm](https://github.com/qlaffont/fvm-installer)**
 ```
-fvm install --save --folder=esx esx-org/esx_voice
+fvm install --save --folder=esx esx-cn/esx_voice
 ```
 
-**2) Manually**
-- Download https://github.com/ESX-Org/esx_voice/releases/latest
-- Put it in resource/[esx] directory
+**2) 手动**
+- 下载 https://github.com/ESX-CN/esx_voice/releases/latest
+- 解压至 `resource/[esx]` 目录
 
-**3) Using Git**
+**3) 使用 Git**
 
 ```
 cd resouces
-git clone https://github.com/ESX-Org/esx_voice
+git clone https://github.com/ESX-CN/esx_voice
 ```
 
-#### Installation
+#### 安装
 
-1) Add `start esx_voice` to your server.cfg
+1) 添加 `start esx_voice` 至你的服务器配置文件 `server.cfg`
 
 
 #### Credits
