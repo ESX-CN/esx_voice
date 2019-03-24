@@ -13,7 +13,15 @@ local Keys = {
 local voice = {default = 5.0, shout = 12.0, whisper = 1.0, current = 0, level = nil}
 
 function drawLevel(r, g, b, a)
-	SetTextFont(4)
+	if GetCurrentLanguageId() == 9 then
+		font = 9
+	elseif GetCurrentLanguageId() == 12 then
+		font = 12
+	else
+		font =4
+	end
+	
+	SetTextFont(font)
 	SetTextProportional(1)
 	SetTextScale(0.5, 0.5)
 	SetTextColour(r, g, b, a)

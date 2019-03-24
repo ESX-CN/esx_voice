@@ -7,16 +7,11 @@ FXServer ESX Voice
 
 #### 下载
 
-**1) 使用 [fvm](https://github.com/qlaffont/fvm-installer)**
-```
-fvm install --save --folder=esx esx-cn/esx_voice
-```
-
-**2) 手动**
+**1) 手动**
 - 下载 https://github.com/ESX-CN/esx_voice/releases/latest
 - 解压至 `resource/[esx]` 目录
 
-**3) 使用 Git**
+**2) 使用 Git**
 
 ```
 cd resouces

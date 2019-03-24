@@ -7,12 +7,9 @@ version '1.1.0'
 client_scripts {
 	'@es_extended/locale.lua',
 	'locales/cn.lua',
-	'locales/br.lua',
+	'locales/zh.lua',
 	'locales/en.lua',
-	'locales/fi.lua',
-  	'locales/fr.lua',
-	'locales/pl.lua',
-	'locales/sv.lua',
 	'config.lua',
+	'@es_extended/i18n.lua',
 	'client/main.lua'
 }
